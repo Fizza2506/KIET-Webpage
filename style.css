@@ -1,0 +1,344 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    color: #333;
+}
+
+
+header {
+    background-color: #102c4e;
+    color: white;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo h1 {
+    font-size: 30px;
+    color: #f4c542;
+}
+
+.logo span {
+    color: white;
+    font-size: 20px;
+}
+
+.logo p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #f4c542;
+}
+
+
+.hero {
+    height: 450px;
+    background-image: linear-gradient(
+        rgba(10, 30, 55, 0.7),
+        rgba(10, 30, 55, 0.7)
+    ),
+    url("kiet.jfif");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    padding: 50px 8%;
+    color: white;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h2 {
+    font-size: 42px;
+    color: #f4c542;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.btn, button {
+    background-color: #f4c542;
+    color: #102c4e;
+    padding: 13px 22px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn:hover, button:hover {
+    background-color: white;
+}
+
+
+section h2 {
+    text-align: center;
+    color: #102c4e;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding: 65px 8%;
+    background-color: white;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    text-align: left;
+}
+
+.about-text p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.departments {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.department-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.department-card {
+    background-color: white;
+    width: 30%;
+    min-width: 220px;
+    padding: 30px 20px;
+    border-radius: 8px;
+    border-bottom: 4px solid #f4c542;
+    box-shadow: 0 3px 12px #ddd;
+}
+
+.department-card h3 {
+    color: #102c4e;
+    margin-bottom: 15px;
+}
+
+.department-card p {
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+
+.programs {
+    background-color: white;
+    padding: 60px 8%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 16px;
+    text-align: center;
+}
+
+th {
+    background-color: #102c4e;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f4f8;
+}
+
+tr:hover {
+    background-color: #fff4cc;
+}
+
+
+.campus {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.campus img {
+    width: 85%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.campus p {
+    color: #666;
+}
+
+
+.admission {
+    background-color: white;
+    padding: 60px 8%;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #f5f6fa;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #102c4e;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.gender {
+    margin-top: 12px;
+}
+
+.gender input {
+    margin-left: 12px;
+}
+
+form button {
+    width: 100%;
+    margin: 22px 0 0;
+}
+
+#form-message {
+    color: green;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+.contact {
+    background-color: #e9eff5;
+    padding: 45px;
+    text-align: center;
+    line-height: 2;
+}
+
+
+footer {
+    background-color: #102c4e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    line-height: 1.8;
+}
+
+footer h3 {
+    color: #f4c542;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .department-card {
+        width: 100%;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
